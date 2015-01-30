@@ -1,0 +1,26 @@
+{
+  "name": "jasminify",
+  "version": "0.1.0",
+  "description": "Use jasmine with browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sprengr/jasminify.git"
+  },
+  "keywords": [
+    "jasmine",
+    "browserify",
+    "module",
+    "unittest",
+    "test"
+  ],
+  "author": "Sebastian Sprenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sprengr/jasminify/issues"
+  },
+  "homepage": "https://github.com/sprengr/jasminify"
+}
