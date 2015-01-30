@@ -25,7 +25,7 @@ function boot(testEnvironment, getContainer) {
         return specFilter.matches(spec.getFullName());
       };
 
-      let htmlReporter = new jasmine.HtmlReporter({
+      var htmlReporter = new jasmine.HtmlReporter({
         env: env,
         onRaiseExceptionsClick: function() { queryString.setParam("catch", !env.catchingExceptions()); },
         getContainer:  getContainer, 
@@ -45,4 +45,4 @@ function boot(testEnvironment, getContainer) {
     return destination;
   }
   
-  module.export = boot;
+  module.exports = boot;

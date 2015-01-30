@@ -20,9 +20,7 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-var jasmine = require('./jasmine.js');
-
-var jasmineRequire = jasmine();
+var jasmineRequire = require('./jasmine.js');
 
 jasmineRequire.html = function(j$) {
   j$.ResultsNode = jasmineRequire.ResultsNode();
@@ -407,4 +405,4 @@ jasmineRequire.QueryString = function() {
   return QueryString;
 };
 
-module.export = jasmineRequire;
+module.exports = jasmineRequire; 
